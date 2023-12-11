@@ -10,8 +10,5 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.6"
-  },
-  "dependencies": {
-    "owl.carousel": "^2.3.4"
   }
 }
