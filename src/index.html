@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./glide.core.min.css" rel="stylesheet">
+    <link href="./glide.theme.min.css" rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <title>MyCourses</title>
 </head>
 <body class="gradient">
     <header>
-        <nav class="relative px-4 py-4 flex justify-between items-center">
+        <nav class="px-4 py-4 flex justify-between items-center fixed top-0 w-full z-30 gradient">
             <a class="text-xl text-white font-bold leading-none flex flex-row items-center " href="#">
                 <svg class="h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.8311 15.6402C17.5011 15.2002 18.3811 15.6802 18.3811 16.4802V17.7702C18.3811 19.0402 17.3911 20.4002 16.2011 20.8002L13.0111 21.8602C12.4511 22.0502 11.5411 22.0502 10.9911 21.8602L7.80109 20.8002C6.60109 20.4002 5.62109 19.0402 5.62109 17.7702V16.4702C5.62109 15.6802 6.50109 15.2002 7.16109 15.6302L9.22109 16.9702C10.0111 17.5002 11.0111 17.7602 12.0111 17.7602C13.0111 17.7602 14.0111 17.5002 14.8011 16.9702L16.8311 15.6402Z" fill="#fff"></path> <path d="M19.9795 6.45859L13.9895 2.52859C12.9095 1.81859 11.1295 1.81859 10.0495 2.52859L4.02953 6.45859C2.09953 7.70859 2.09953 10.5386 4.02953 11.7986L5.62953 12.8386L10.0495 15.7186C11.1295 16.4286 12.9095 16.4286 13.9895 15.7186L18.3795 12.8386L19.7495 11.9386V14.9986C19.7495 15.4086 20.0895 15.7486 20.4995 15.7486C20.9095 15.7486 21.2495 15.4086 21.2495 14.9986V10.0786C21.6495 8.78859 21.2395 7.28859 19.9795 6.45859Z" fill="#fff"></path> </g>
                 </svg>
                 MyCourses
             </a>
-            </div>
             <div class="lg:hidden">
                 <button class="navbar-burger flex items-center text-white p-3">
                     <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -32,25 +32,19 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                     </svg>
                 </li>
-                <li><a class="text-sm text-white font-bold" href="#">About Us</a></li>
+                <li><a class="text-sm text-white hover:underline" href="#testimonials">Testimonials</a></li>
                 <li class="text-gray-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                     </svg>
                 </li>
-                <li><a class="text-sm text-white hover:underline" href="#">Services</a></li>
+                <li><a class="text-sm text-white hover:underline" href="#pricings">Pricings</a></li>
                 <li class="text-gray-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                     </svg>
                 </li>
-                <li><a class="text-sm text-white hover:underline" href="#">Pricing</a></li>
-                <li class="text-gray-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </li>
-                <li><a class="text-sm text-white hover:underline" href="#">Contact</a></li>
+                <li><a class="text-sm text-white hover:underline" href="#contact">Contact</a></li>
             </ul>
             <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-transparent border-5 text-white  hover:underline text-sm text-gray-900 font-bold rounded-xl transition duration-200" href="#">Log In</a>
             <a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-100 text-sm font-bold rounded-xl transition duration-200" href="#">Sign up</a>
@@ -74,16 +68,13 @@
                             <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#benefits">Benefits</a>
                         </li>
                         <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">About Us</a>
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#testimonials">Testimonials</a>
                         </li>
                         <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Services</a>
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#pricings">Pricing</a>
                         </li>
                         <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Pricing</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contact</a>
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -101,7 +92,7 @@
     </header>
     <main>
         <!-- JUMBOTRON -->
-        <section class="container mt-5 p-2 md:grid md:grid-cols-2 md:p-6 mx-auto lg:mt-10">
+        <section class="container mt-5 px-2 pt-8 md:grid md:grid-cols-2 md:p-6 mx-auto lg:mt-10">
             <div class="text-white self-center md:text-left text-center">
                 <p class="md:text-lg lg:text-xl">From teachers for teachers</p>
                 <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold">Manage Course efficently using MyCourses!</h1>
@@ -146,9 +137,62 @@
 
         <section class="bg-white w-full pt-16">
             <div class="container mx-auto">
-                
+            <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4" id="testimonials">Testimonials</h2>
+            <div class="w-full mb-4">
+                <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
             </div>
-
+            <div class="container mx-auto p-6 md:p-8 lg:p-10 md:flex">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                      <div class="glide__slides">
+                        <div class="container shadow-lg border border-5 p-4 flex flex-row glide__slide">
+                            <img src="../public/testimonial-1.jpg" class="max-h-20 rounded-full">
+                            <div class="ml-4">
+                                <p class="mb-4">This app helped me a lot. I can focus more on my priority task. Thank you MyCourses!</p>
+                                <p class="font-bold">Michael Don</p>
+                                <p class="">Elementary Teacher</p>
+                            </div>
+                        </div>
+                        <div class="container shadow-lg border border-5 p-4 flex flex-row glide__slide">
+                            <img src="../public/testimonial-2.jpg" class="max-h-20 rounded-full">
+                            <div class="ml-4">
+                                <p class="mb-4">I love this app. Now, i can manage class more efficently than before.</p>
+                                <p class="font-bold">Julia Woods</p>
+                                <p class="">Secondary Teacher</p>
+                            </div>
+                        </div>
+                        <div class="container shadow-lg border border-5 p-4 flex flex-row glide__slide">
+                            <img src="../public/testimonial-3.jpg" class="max-h-20 rounded-full">
+                            <div class="ml-4">
+                                <p class="mb-4">This app really worth my money. I can create report for my students easily.</p>
+                                <p class="font-bold">Nadine Putri</p>
+                                <p class="">Elementary Teacher</p>
+                            </div>
+                        </div>
+                        <div class="container shadow-lg border border-5 p-4 flex flex-row glide__slide">
+                            <img src="../public/testimonial-4.jpg" class="max-h-20 rounded-full">
+                            <div class="ml-4">
+                                <p class="mb-4">I have subscribed this app since my first year working as teacher. Really helped me. Thanks!</p>
+                                <p class="font-bold">Andrew Red</p>
+                                <p class="">K-12 Teacher</p>
+                            </div>
+                        </div>
+                        <div class="container shadow-lg border border-5 p-4 flex flex-row glide__slide">
+                            <img src="../public/testimonial-5.jpg" class="max-h-20 rounded-full">
+                            <div class="ml-4">
+                                <p class="mb-4">This app helped me to achieve best teacher awards. I'm so glad to found this app.</p>
+                                <p class="font-bold">Michael Tanaka</p>
+                                <p class="">Secondary Teacher</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex justify-center gap-2 mt-4 mx-auto" data-glide-el="controls">
+                        <button class="p-4" data-glide-dir="<"><</button>
+                        <button class="p-4" data-glide-dir=">">></button>
+                      </div>
+                </div>
+            </div>
         </section>
 
         <!-- PRICINGS -->
@@ -209,7 +253,7 @@
             <path fill="#f3f4f6" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,144C672,117,768,107,864,133.3C960,160,1056,224,1152,240C1248,256,1344,224,1392,208L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
         </svg>
         <!-- CONTACT -->
-        <section class="w-full">
+        <section class="w-full lg:-mt-20 lg:mb-20 md:-mt-15 md:mb-13">
             <div class="container mx-auto">
                 <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" id="contact">Contact Us</h2>
                 <div class="w-full mb-4">
@@ -245,48 +289,55 @@
               </div>
         </section>
     </main>
-    <footer></footer>
-    <script>
-        // Burger menus
-        document.addEventListener('DOMContentLoaded', function() {
-            // open
-            const burger = document.querySelectorAll('.navbar-burger');
-            const menu = document.querySelectorAll('.navbar-menu');
-        
-            if (burger.length && menu.length) {
-                for (var i = 0; i < burger.length; i++) {
-                    burger[i].addEventListener('click', function() {
-                        for (var j = 0; j < menu.length; j++) {
-                            menu[j].classList.toggle('hidden');
-                        }
-                    });
+    <footer class="bg-white w-full">
+        <div class="container mx-auto px-2 lg:py-8 py-4 md:flex md:flex-row md:justify-between">
+            <a class="text-xl lg:text-3xl md:text-2xl font-bold leading-none flex flex-row items-center mb-4" href="#">
+                <svg class="h-10 -ml-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.8311 15.6402C17.5011 15.2002 18.3811 15.6802 18.3811 16.4802V17.7702C18.3811 19.0402 17.3911 20.4002 16.2011 20.8002L13.0111 21.8602C12.4511 22.0502 11.5411 22.0502 10.9911 21.8602L7.80109 20.8002C6.60109 20.4002 5.62109 19.0402 5.62109 17.7702V16.4702C5.62109 15.6802 6.50109 15.2002 7.16109 15.6302L9.22109 16.9702C10.0111 17.5002 11.0111 17.7602 12.0111 17.7602C13.0111 17.7602 14.0111 17.5002 14.8011 16.9702L16.8311 15.6402Z" fill="#000"></path> <path d="M19.9795 6.45859L13.9895 2.52859C12.9095 1.81859 11.1295 1.81859 10.0495 2.52859L4.02953 6.45859C2.09953 7.70859 2.09953 10.5386 4.02953 11.7986L5.62953 12.8386L10.0495 15.7186C11.1295 16.4286 12.9095 16.4286 13.9895 15.7186L18.3795 12.8386L19.7495 11.9386V14.9986C19.7495 15.4086 20.0895 15.7486 20.4995 15.7486C20.9095 15.7486 21.2495 15.4086 21.2495 14.9986V10.0786C21.6495 8.78859 21.2395 7.28859 19.9795 6.45859Z" fill="#000"></path> </g>
+                </svg>
+                MyCourses
+            </a>
+            <div class="mb-3 md:mr-10">
+                <p class="font-bold text-xl md:text-2xl lg:text-3xl">Other Links</p>
+                <ul class="list-none text-lg md:text-xl lg:text-2xl flex flex-row gap-4 md:flex-col md:gap-1">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="mb-3 md:mr-10">
+                <p class="font-bold text-xl md:text-2xl lg:text-3xl">Legal</p>
+                <ul class="list-none text-lg md:text-xl lg:text-2xl flex flex-row gap-4 md:flex-col md:gap-2">
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="mb-3 md:mr-10">
+                <p class="font-bold text-xl md:text-2xl lg:text-3xl">Social</p>
+                <ul class="list-none text-lg md:text-xl lg:text-2xl flex flex-row gap-4 md:flex-col md:gap-2">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">X</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <script>
+          new Glide('.glide', {
+            type: 'carousel',
+            autoplay: 3000,
+            hoverpause: false,
+            perView: 3,
+            breakpoints: {
+                800: {
+                    perView: 2
+                },
+                600: {
+                    perView: 1
                 }
             }
-        
-            // close
-            const close = document.querySelectorAll('.navbar-close');
-            const backdrop = document.querySelectorAll('.navbar-backdrop');
-        
-            if (close.length) {
-                for (var i = 0; i < close.length; i++) {
-                    close[i].addEventListener('click', function() {
-                        for (var j = 0; j < menu.length; j++) {
-                            menu[j].classList.toggle('hidden');
-                        }
-                    });
-                }
-            }
-        
-            if (backdrop.length) {
-                for (var i = 0; i < backdrop.length; i++) {
-                    backdrop[i].addEventListener('click', function() {
-                        for (var j = 0; j < menu.length; j++) {
-                            menu[j].classList.toggle('hidden');
-                        }
-                    });
-                }
-            }
-        });
+          }).mount()
         </script>
         <script src="./main.js" type="module"></script>
 </body>
