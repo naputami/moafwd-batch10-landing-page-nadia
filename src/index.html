@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <title>MyCourses</title>
+</head>
+<body class="gradient">
+    <header>
+        <nav class="relative px-4 py-4 flex justify-between items-center">
+            <a class="text-xl text-white font-bold leading-none flex flex-row items-center " href="#">
+                <svg class="h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.8311 15.6402C17.5011 15.2002 18.3811 15.6802 18.3811 16.4802V17.7702C18.3811 19.0402 17.3911 20.4002 16.2011 20.8002L13.0111 21.8602C12.4511 22.0502 11.5411 22.0502 10.9911 21.8602L7.80109 20.8002C6.60109 20.4002 5.62109 19.0402 5.62109 17.7702V16.4702C5.62109 15.6802 6.50109 15.2002 7.16109 15.6302L9.22109 16.9702C10.0111 17.5002 11.0111 17.7602 12.0111 17.7602C13.0111 17.7602 14.0111 17.5002 14.8011 16.9702L16.8311 15.6402Z" fill="#fff"></path> <path d="M19.9795 6.45859L13.9895 2.52859C12.9095 1.81859 11.1295 1.81859 10.0495 2.52859L4.02953 6.45859C2.09953 7.70859 2.09953 10.5386 4.02953 11.7986L5.62953 12.8386L10.0495 15.7186C11.1295 16.4286 12.9095 16.4286 13.9895 15.7186L18.3795 12.8386L19.7495 11.9386V14.9986C19.7495 15.4086 20.0895 15.7486 20.4995 15.7486C20.9095 15.7486 21.2495 15.4086 21.2495 14.9986V10.0786C21.6495 8.78859 21.2395 7.28859 19.9795 6.45859Z" fill="#fff"></path> </g>
+                </svg>
+                MyCourses
+            </a>
+            </div>
+            <div class="lg:hidden">
+                <button class="navbar-burger flex items-center text-white p-3">
+                    <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Mobile menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    </svg>
+                </button>
+            </div>
+            <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+                <li><a class="text-sm text-white hover:underline" href="#benefits">Benefits</a></li>
+                <li class="text-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                    </svg>
+                </li>
+                <li><a class="text-sm text-white font-bold" href="#">About Us</a></li>
+                <li class="text-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                    </svg>
+                </li>
+                <li><a class="text-sm text-white hover:underline" href="#">Services</a></li>
+                <li class="text-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                    </svg>
+                </li>
+                <li><a class="text-sm text-white hover:underline" href="#">Pricing</a></li>
+                <li class="text-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                    </svg>
+                </li>
+                <li><a class="text-sm text-white hover:underline" href="#">Contact</a></li>
+            </ul>
+            <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-transparent border-5 text-white  hover:underline text-sm text-gray-900 font-bold rounded-xl transition duration-200" href="#">Log In</a>
+            <a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-100 text-sm font-bold rounded-xl transition duration-200" href="#">Sign up</a>
+        </nav>
+        <div class="navbar-menu relative z-50 hidden">
+            <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+            <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+                <div class="flex items-center mb-8">
+                    <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                       <svg class="h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.8311 15.6402C17.5011 15.2002 18.3811 15.6802 18.3811 16.4802V17.7702C18.3811 19.0402 17.3911 20.4002 16.2011 20.8002L13.0111 21.8602C12.4511 22.0502 11.5411 22.0502 10.9911 21.8602L7.80109 20.8002C6.60109 20.4002 5.62109 19.0402 5.62109 17.7702V16.4702C5.62109 15.6802 6.50109 15.2002 7.16109 15.6302L9.22109 16.9702C10.0111 17.5002 11.0111 17.7602 12.0111 17.7602C13.0111 17.7602 14.0111 17.5002 14.8011 16.9702L16.8311 15.6402Z" fill="#292D32"></path> <path d="M19.9795 6.45859L13.9895 2.52859C12.9095 1.81859 11.1295 1.81859 10.0495 2.52859L4.02953 6.45859C2.09953 7.70859 2.09953 10.5386 4.02953 11.7986L5.62953 12.8386L10.0495 15.7186C11.1295 16.4286 12.9095 16.4286 13.9895 15.7186L18.3795 12.8386L19.7495 11.9386V14.9986C19.7495 15.4086 20.0895 15.7486 20.4995 15.7486C20.9095 15.7486 21.2495 15.4086 21.2495 14.9986V10.0786C21.6495 8.78859 21.2395 7.28859 19.9795 6.45859Z" fill="#292D32"></path> </g></svg>
+                    </a>
+                    <button class="navbar-close">
+                        <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <ul>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#benefits">Benefits</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">About Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Services</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Pricing</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-auto">
+                    <div class="pt-6">
+                        <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Log in</a>
+                        <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold gradient hover:gradient  rounded-xl" href="#">Sign Up</a>
+                    </div>
+                    <p class="my-4 text-xs text-center text-gray-400">
+                        <span>Copyright © 2021</span>
+                    </p>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- JUMBOTRON -->
+        <section class="container mt-5 p-2 md:grid md:grid-cols-2 md:p-6 mx-auto lg:mt-10">
+            <div class="text-white self-center md:text-left text-center">
+                <p class="md:text-lg lg:text-xl">From teachers for teachers</p>
+                <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold">Manage Course efficently using MyCourses!</h1>
+                <p class="mt-4 text-lg md:text-xl">No worries about overwhelming data need to be saved</p>
+                <button class="mt-8 bg-white font-bold text-black p-4 rounded-full hover:bg-gray-200">Get Started</button>
+            </div>
+            <div>
+                <img class="md:h-80 lg:w-full lg:h-full" src="../public/teacher-two-color.png">
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,320L40,293.3C80,267,160,213,240,197.3C320,181,400,203,480,224C560,245,640,267,720,250.7C800,235,880,181,960,144C1040,107,1120,85,1200,106.7C1280,128,1360,192,1400,224L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- BENEFITS SECTION -->
+        <section class="bg-white w-full pt-16">
+            <div class="container mx-auto">
+                <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4" id="benefits">Benefits</h2>
+                <div class="w-full mb-4">
+                    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <div class="container mx-auto p-6 md:p-8 lg:p-10 md:flex mb-1">
+                    <div>
+                        <h3 class="text-2xl md:3-xl lg:text-4xl font-bold mb-4">Saving Your time</h3>
+                        <p class="text-lg md:text-xl lg:text-2xl leading-normal">This app can give time savings in administration managing. You can optimize your time for your priority activities. </p>
+                    </div>
+                    <img class="md:h-60 lg:h-96" src="../public/time-two-color.png">
+                </div>
+                <div class="container mx-auto p-6 md:p-8 lg:p-10 md:flex mb-1 gap-x-14">
+                    <div class="order-last">
+                        <h3 class="text-2xl md:3-xl lg:text-4xl font-bold mb-4">Easy Analyzing</h3>
+                        <p class="text-lg md:text-xl lg:text-2xl leading-normal">Course data analysis becomes easier with a variety of user-friendly tools that allows you to conduct in-depth data analysis </p>
+                    </div>
+                    <img class="md:h-60 lg:h-96" src="../public/report-analysis-two-color-560b3.png">
+                </div>
+                <div class="container mx-auto p-6 md:p-8 lg:p-10 md:flex">
+                    <div>
+                        <h3 class="text-2xl md:3-xl lg:text-4xl font-bold mb-4">Easy Reporting</h3>
+                        <p class="text-lg md:text-xl lg:text-2xl leading-normal">This application allows you to create communicative reports. You can send them directly to your students and their parents </p>
+                    </div>
+                    <img class="md:h-60 lg:h-96" src="../public/report-analysis-two-color.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white w-full pt-16">
+            <div class="container mx-auto">
+                
+            </div>
+
+        </section>
+
+        <!-- PRICINGS -->
+        <section class="bg-gray-100 w-full pt-16">
+            <div class="container mx-auto">
+                <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4" id="pricings">Pricings</h2>
+                <div class="w-full mb-4">
+                    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <div class="container mx-auto p-6 md:flex md:flex-row lg:justify-center">
+                    <div class="bg-white flex flex-col md:mt-10 lg:w-1/4 md:w-1/3">
+                        <div class="font-bold text-center text-xl p-4 border-b-4">Basic</div>
+                        <div>
+                            <ul>
+                                <li class="border-b-2 p-4">Course managing tools</li>
+                                <li class="border-b-2 p-4">Data analysis tools</li>
+                            </ul>
+                        </div>
+                        <div class="font-bold text-center text-xl pt-6 md:pt-60 lg:pt-48">Rp 50.000/month</div>
+                        <div class="flex items-center justify-center">
+							<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg-lg">Purchase</button>
+						</div>
+                    </div>
+                    <div class="bg-white md:shadow-lg flex flex-col mt-10 md:-mt-4 md:z-10 lg:w-1/3 md:w-1/3">
+                        <div class="font-bold text-center text-xl p-4">Premium</div>
+                        <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
+                        <div>
+                            <ul>
+                                <li class="border-b-2 p-4">All basic feature</li>
+                                <li class="border-b-2 p-4">Generating report into various file formats (PDF, PNG, JPG, etc)</li>
+                                <li class="border-b-2 p-4">Mailing list for students and parents</li>
+                            </ul>
+                        </div>
+                        <div class="font-bold text-center text-xl pt-6 md:pt-24">Rp 80.000/month</div>
+                        <div class="flex items-center justify-center">
+							<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg-lg">Purchase</button>
+						</div>
+                    </div>
+                    <div class="bg-white flex flex-col mt-10 lg:w-1/4 md:w-1/3">
+                        <div class="font-bold text-center text-xl p-4 border-b-4">Pro</div>
+                        <div>
+                            <ul>
+                                <li class="border-b-2 p-4">All pro features.</li>
+                                <li class="border-b-2 p-4">Scheduling for automatic mails</li>
+                                <li class="border-b-2 p-4">Integration with another data analysis tools (Excel, Power BI, etc)</li>
+                                <li class="border-b-2 p-4">AI assistant</li>
+                            </ul>
+                        </div>
+                        <div class="font-bold text-center text-xl pt-6">Rp 100.000/month</div>
+                        <div class="flex items-center justify-center">
+							<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Purchase</button>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f3f4f6" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,144C672,117,768,107,864,133.3C960,160,1056,224,1152,240C1248,256,1344,224,1392,208L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        </svg>
+        <!-- CONTACT -->
+        <section class="w-full">
+            <div class="container mx-auto">
+                <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" id="contact">Contact Us</h2>
+                <div class="w-full mb-4">
+                    <div class="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <h3 class="text-center text-white text-lg md:text-xl lf:text-2xl">Any questions regarding our product? Send us a message!</h3>
+                <div class="flex items-center justify-center">
+                    <button id="contactForm" class="mx-auto lg:mx-0 bg-white hover:bg-gray-200 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Send message</button>
+                </div>
+            </div>
+            <!-- MODAL FORM -->
+              <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="modal">
+                <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                  <div class="fixed inset-0 transition-opacity">
+                    <div class="absolute inset-0 bg-gray-900 opacity-75" />
+                  </div>
+                  <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                  <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                      <label class="font-medium text-gray-800">Name</label>
+                      <input type="text" class="w-full outline-none rounded bg-gray-100 p-2 mt-2 mb-3" />
+                      <label class="font-medium text-gray-800">e-mail</label>
+                      <input type="text" class="w-full outline-none rounded bg-gray-100 p-2 mt-2 mb-3" />
+                      <label class="font-medium text-gray-800">Message</label>
+                      <textarea class="w-full outline-none rounded bg-gray-100 p-2 mt-2 mb-3"></textarea>
+                    </div>
+                    <div class="bg-gray-200 px-4 py-3 text-right">
+                      <button type="button" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 mr-2" id="cancel"> Cancel</button>
+                      <button type="button" class="py-2 px-4 gradient text-white rounded hover:bg-blue-700 mr-2">Create</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script>
+        // Burger menus
+        document.addEventListener('DOMContentLoaded', function() {
+            // open
+            const burger = document.querySelectorAll('.navbar-burger');
+            const menu = document.querySelectorAll('.navbar-menu');
+        
+            if (burger.length && menu.length) {
+                for (var i = 0; i < burger.length; i++) {
+                    burger[i].addEventListener('click', function() {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden');
+                        }
+                    });
+                }
+            }
+        
+            // close
+            const close = document.querySelectorAll('.navbar-close');
+            const backdrop = document.querySelectorAll('.navbar-backdrop');
+        
+            if (close.length) {
+                for (var i = 0; i < close.length; i++) {
+                    close[i].addEventListener('click', function() {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden');
+                        }
+                    });
+                }
+            }
+        
+            if (backdrop.length) {
+                for (var i = 0; i < backdrop.length; i++) {
+                    backdrop[i].addEventListener('click', function() {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden');
+                        }
+                    });
+                }
+            }
+        });
+        </script>
+        <script src="./main.js" type="module"></script>
+</body>
+</html>
